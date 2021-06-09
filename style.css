@@ -1,0 +1,252 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "微軟正黑體", sans-serif;
+}
+p,
+a,
+input,
+label,
+textarea,
+span,
+ul,
+li {
+  font-family: "微軟正黑體", sans-serif;
+}
+#intro p {
+  font-size: 25px;
+  font-weight: 450;
+}
+/* header {
+  background-color: rgb(241, 223, 139);
+} */
+#intro .jumbotron {
+  height: 50vh;
+  /* 從左至右 漸層透明 */
+  background-image: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0.7),
+      rgba(236, 233, 233, 0.05)
+    ),
+    url(img/Taiwan.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 30% 30%;
+}
+
+#intro h1 {
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+*::selection {
+  background: #3990f3;
+}
+.btn {
+  background-color: #007ab3a2;
+  padding: 10px 25px;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 100px;
+}
+
+/* container 置中 */
+#intro .container {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#second .col-md-3 p {
+  line-height: 0.8;
+}
+#second .offset-md-2 {
+  border: black;
+  border: 3.5px solid rgb(59, 59, 59);
+  border-radius: 5px;
+  padding: 20px;
+  background-color: rgba(255, 238, 140, 0.5);
+}
+header nav img {
+  width: 65px;
+  height: 50px;
+}
+header nav a {
+  /* font-size: 20px; */
+  font-weight: 600;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(25, 71, 114);
+}
+
+header li {
+  margin: 10px 40px;
+  font-size: 18px;
+  font-weight: 600;
+}
+#second {
+  padding: 80px 0px;
+}
+/* 限制圖片最大的寬度 */
+img {
+  max-width: 100%;
+}
+/* h3 {
+  font-size: 35px;
+  line-height: 1.5;
+} */
+h3 {
+  margin-bottom: 45px;
+  font-size: 35px;
+  font-weight: 550;
+  line-height: 1.5;
+}
+#second img {
+  width: 100px;
+  border-radius: 100%;
+  margin-bottom: 15px;
+}
+#second p {
+  font-size: 20px;
+  line-height: 1.5;
+}
+#latest {
+  padding: 80px 0px;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.5),
+    rgb(249, 250, 180, 0.5)
+  );
+}
+#latest2 {
+  padding: 80px 0px;
+  background: linear-gradient(
+    to bottom,
+    rgb(249, 250, 180, 0.5),
+    rgb(201, 237, 190, 0.5)
+  );
+}
+#latest3 {
+  padding: 80px 0px;
+  background: linear-gradient(
+    to bottom,
+    rgb(201, 237, 190, 0.5),
+    rgb(197, 225, 255, 0.5)
+  );
+}
+#latest4 {
+  padding: 80px 0px;
+  background: linear-gradient(
+    to bottom,
+    rgb(197, 225, 255, 0.5),
+    rgb(208, 255, 233, 0.5)
+  );
+}
+#latest5 {
+  padding: 80px 0px;
+  background: linear-gradient(
+    to bottom,
+    rgb(208, 255, 233, 0.5),
+    rgb(178, 203, 234, 0.5)
+  );
+}
+.h3 {
+  margin-bottom: 20px;
+}
+.upper {
+  position: relative;
+}
+.innertext {
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+}
+.innertext span {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 6px 15px;
+  border-radius: 20px;
+}
+.innertext h4 {
+  background-color: rgba(255, 255, 255, 0.7);
+  font-size: 22px;
+  margin-top: 15px;
+  padding: 6px 15px;
+  /* border-radius: 20px; */
+}
+.lower h3 {
+  font-size: 25px;
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+.lower i {
+  margin-right: 6px;
+}
+.outer {
+  background: white;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.08);
+}
+.lower {
+  padding: 6px;
+  background: rgb(225, 225, 225, 0.5);
+}
+#latest a,
+#latest2 a,
+#latest3 a,
+#latest4 a,
+#latest5 a {
+  color: black;
+}
+#latest a:hover,
+#latest2 a:hover,
+#latest3 a:hover,
+#latest4 a:hover,
+#latest5 a:hover {
+  text-decoration: none;
+  color: #2054a1;
+  font-size: 15.5px;
+}
+.hr {
+  margin-bottom: 40px;
+  margin-top: 40px;
+  height: 3.5px;
+  border-width: 0;
+  background-color: rgb(90, 90, 90);
+  color: rgb(65, 65, 65);
+}
+#otherPage img {
+  width: 200px;
+  margin: 20px;
+}
+#email {
+  padding: 50px 0px;
+  background-color: rgba(158, 158, 158, 0.45);
+}
+#email .p {
+  font-size: 25px;
+  font-weight: 450;
+}
+#email .h4 {
+  margin-bottom: 80px;
+}
+#email .form-control {
+  margin-right: 10px;
+}
+footer {
+  border-top: solid 1px darkgray;
+  padding: 80px 0px;
+}
+footer img {
+  width: 80px;
+  margin-bottom: 25px;
+}
+footer .p {
+  font-size: 25px;
+  font-weight: 450;
+}
+footer h4 {
+  margin-bottom: 25px;
+}
